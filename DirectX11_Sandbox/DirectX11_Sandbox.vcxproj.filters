@@ -54,4 +54,11 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\Triangle.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\Triangle_PS.hlsl" />
+    <FxCompile Include="Shader\Triangle_VS.hlsl" />
+  </ItemGroup>
 </Project>
